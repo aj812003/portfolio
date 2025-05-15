@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK MART</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header>
+       <div class="nav">
+        <a href="#" class="logo">
+            <ion-icon name="book"></ion-icon>
+            Book Mart
+        </a>
+
+        <div class="box">
+            <div class="cart-count">0</div><ion-icon name="cart" id="cart-icon"></ion-icon>
+        </div>
+
+        <div class="cart">
+            <div class="cart-title">Cart Items</div>
+            <div class="cart-content">
+
+                <!-- <div class="cart-box">
+                    <img src="img/b1.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-book-title"> The Psychology Of Money </div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs.1758</div>
+                            <div class="cart-amt">Rs.1758</div>
+                        </div>
+                        <input type="number" class="cart-quantity">
+                    </div>
+                    <ion-icon name="trash" class="cart-remove"></ion-icon>
+                   </div> 
+                
+                    <div class="cart-box">
+                    <img src="img/b2.jbg.JPG" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-book-title"> Ponniyin Selvan </div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs.1245</div>
+                            <div class="cart-amt">Rs.1245</div>
+                        </div>
+                        <input type="number" class="cart-quantity">
+                    </div>
+                    <ion-icon name="trash" class="cart-remove"></ion-icon>
+                   </div>  -->
+
+         </div>
+         <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price"> Rs.0</div>
+         </div>
+         <button class="btn-buy"> Please Order</button>
+         <ion-icon name="close" id="cart-close"></ion-icon>
+
+        </div>
+
+      </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Buy Your Next Read</h2>
+        <div class="Shop-content">
+
+        <div class="book-box">
+        <div class="pic">
+            <img src="img/b1.jpg" class="book-img">
+        </div>
+        <h2 class="book-title"> The Psychology Of Money</h2>
+        <p class="book-desc">"Wealth is more about psychology than financial skill."</p>
+        <span class="book-price"> Rs.1758</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b2.jbg.JPG" class="book-img">
+    </div>
+    <h2 class="book-title"> Ponniyin Selvan</h2>
+    <p class="book-desc">"chronicles Chola dynasty intrigue, love, and ambition."</p>
+    <span class="book-price"> Rs.1245</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b3.jpg" class="book-img">
+    </div>
+    <h2 class="book-title">Game Of Thrones </h2>
+    <p class="book-desc">"Starks fall, Lannisters lie, Daenerys hatches dragons—chaos reigns."</p>
+    <span class="book-price"> Rs.2500</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b4.jpg" class="book-img">
+    </div>
+    <h2 class="book-title"> Harry Potter</h2>
+    <p class="book-desc">"Orphan discovers magic, fights villain with friends and courage."</p>
+    <span class="book-price"> Rs.1262</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b5.jpg" class="book-img">
+    </div>
+    <h2 class="book-title"> MY JOURNEY</h2>
+    <p class="book-desc">"From humble beginnings to scientist, leader, and inspiration."1</p>
+    <span class="book-price"> Rs.1856</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b6.jbg.jpg" class="book-img">
+    </div>
+    <h2 class="book-title"> The Midnight Library</h2>
+    <p class="book-desc">" Suicidal woman tests alternate lives, learns to live."</p>
+    <span class="book-price"> Rs.2222</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b7.jbg.jpg" class="book-img">
+    </div>
+    <h2 class="book-title"> Born a Crime</h2>
+    <p class="book-desc">"Trevor Noah’s apartheid childhood: hilarious, heartbreaking, unforgettable."</p>
+    <span class="book-price"> Rs.1432</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+
+<div class="book-box">
+    <div class="pic">
+        <img src="img/b8.jbg.jpg" class="book-img">
+    </div>
+    <h2 class="book-title">Piranesi</h2>
+    <p class="book-desc">"Lone explorer documents endless halls, uncovers dark secrets."</p>
+    <span class="book-price"> Rs.1965</span>
+    <ion-icon name="cart" class="add-cart"></ion-icon>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div class="footer">
+    <p >Contact : bookmart@online.com</p>
+    <p>Phone : 132-654-987</p>
+    <p>Address : 1st Main Road , Annanagar </p>
+    <p class="copyright"> Book Mart &copy; All Rights Reserved</p>
+
+</div>
+
+
+    <script src="script.js" ></script>
+</body>
+</html>
